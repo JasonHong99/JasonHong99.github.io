@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html {
+	background-image: url("../Images/Beijing_Skyline.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.tabs {
+	width: 400px;
+	position: absolute;
+	right: 5%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	opacity: 0.6;
+}
+
+.links {
+	text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	border-width: 3px;
+	border-color: grey;
+}
+
+#first {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+}
+
+li :hover {
+	background-color: grey;
+	color: white;
+}
