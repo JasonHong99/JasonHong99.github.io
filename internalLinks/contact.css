@@ -90,6 +90,16 @@ li :hover {
 	padding-left: 80px;
 }
 
+.contact.github {
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+}
+
+#githubIcon {
+	padding-left: 80px;
+}
+
 #list {
 	display: block;
 }
