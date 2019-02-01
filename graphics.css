@@ -17,7 +17,7 @@ h2 {
 }
 
 .tabs {
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -45,13 +45,9 @@ html {
 	border-color: grey;
 }
 
-#first {
-	border-top-style: solid;
-	border-right-style: solid;
-	border-left-style: solid;
-}
 
 #second {
+	border-top-style: solid;
 	border-right-style: solid;
 	border-left-style: solid;
 }
