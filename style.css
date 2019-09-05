@@ -1,0 +1,21 @@
+/* google font import */
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Domine);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* body */
+body {
+  background-color: WhiteSmoke;
+}
+/* font */
+h1 {
+  font-family: "Domine", Times, serif;
+}
+p {
+  font-family: "Roboto", Times, serif;
+  font-size: 1.4em;
+  max-width: 600px;
+}
+/* horizontal bar */
+
+/* navbar */
