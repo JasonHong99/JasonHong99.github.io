@@ -61,7 +61,7 @@
         <!-- left side -->
         <div class="col-lg-6">
           <p>Currently earning my BS degree of computer science at USC.</p>
-          <a class="btn btn-primary btn-lg" href="mailto:jasonhon@usc.edu" role="button">Get in touch</a>
+          <a class="btn btn-light btn-lg" href="mailto:jasonhon@usc.edu" role="button">Get in touch</a>
         </div>
         <!-- right side -->
         <div class="col-lg-6">
@@ -72,7 +72,7 @@
             <span class="ml-auto">Intermediate</span>
           </div>
           <div class="progress border border-dark">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background-color:CornflowerBlue;"></div>
           </div>
           <!-- bar closing -->
           <!-- a new bar -->
@@ -81,7 +81,7 @@
             <span class="ml-auto">Intermediate</span>
           </div>
           <div class="progress border border-dark">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;background-color:CornflowerBlue;"></div>
           </div>
           <!-- bar closing -->
           <!-- a new bar -->
@@ -90,7 +90,7 @@
             <span class="ml-auto">Intermediate</span>
           </div>
           <div class="progress border border-dark">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;background-color:CornflowerBlue;"></div>
           </div>
           <!-- bar closing -->
           <!-- a new bar -->
@@ -99,7 +99,7 @@
             <span class="ml-auto">Intermediate</span>
           </div>
           <div class="progress border border-dark">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;background-color:CornflowerBlue;"></div>
           </div>
           <!-- bar closing -->
           <!-- a new bar -->
@@ -108,7 +108,7 @@
             <span class="ml-auto">Beginner</span>
           </div>
           <div class="progress border border-dark">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;background-color:CornflowerBlue;"></div>
           </div>
           <!-- bar closing -->
         </div>
@@ -117,12 +117,12 @@
   </div>
   <!-- Experiences -->
   <div class="container my-5">
-    <h1 class="display-4" id="experiences">Work Experiences</h1>
+    <h1 class="display-4 mb-5" id="experiences">Work Experiences</h1>
     <!-- row opening -->
     <div class="row">
       <div class="col-lg-2">
         <!-- leftside nav -->
-        <ul class="nav nav-pills flex-column">
+        <!-- <ul class="nav nav-pills flex-column">
           <li class="nav-item">
             <a class="nav-link active" href="#">UÐAP</a>
           </li>
@@ -132,13 +132,19 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Hokay</a>
           </li>
-        </ul>
+        </ul> -->
+        <div class="btn-group-vertical w-100">
+          <button type="button" id="jobbtn1" class="btn btn-lg btn-light job-btns active">UÐAP</button>
+          <button type="button" id="jobbtn2" class="btn btn-light btn-lg job-btns">ISA</button>
+          <button type="button" id="jobbtn3" class="btn btn-light btn-lg job-btns">Hokay</button>
+        </div>
       </div>
       <!-- rightside content -->
-      <div class="col-lg-8 border rounded-lg border-info">
+      <div class="col-lg-8">
+        <!-- border rounded-lg border-info -->
         <!-- all jobs container -->
-        <div>
-          <div id="job1">
+        <div class="ml-4">
+          <div id="job1" class="exposed jobs">
             <h2>Software Engineer Intern @ UÐAP</h2>
             <small class="text-muted">June 2018 - Auguest 2018</small>
             <ul>
@@ -147,7 +153,7 @@
               <li>Organized retrieved objects in MySQL database based on objects’ traits.</li>
             </ul>
           </div>
-          <div id="job2">
+          <div id="job2" class="hidden jobs">
             <h2>Chair of WebDesign @ ISA</h2>
             <small class="text-muted">May 2019 - Present</small>
             <ul>
@@ -156,7 +162,7 @@
               <li>Click <a href="https://jasonhong99.github.io/USC_ISA/index.html">here</a> to view.(tentative version)</li>
             </ul>
           </div>
-          <div id="job3">
+          <div id="job3" class="hidden jobs">
             <h2>Assistant Coach @ Hokay Skating Center</h2>
             <small class="text-muted">August 2016 – May 2017</small>
             <ul>

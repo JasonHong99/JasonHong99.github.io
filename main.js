@@ -17,4 +17,33 @@ $(function() {
     } //click function
   }); //smooth scrolling
 });
+
 //presenting the appropiate job tab
+//even listener on navbar and if clicked change active element
+//grab element, see if it is actively
+//change opoacity of associated <P>
+$("document").ready(function() {
+    $("#jobbtn1").on("click", showJob);
+    $("#jobbtn2").on("click", showJob);
+    $("#jobbtn3").on("click", showJob);
+});
+
+function showJob(){
+  var targetNum = this.id.substr(6,1);
+  //change button
+  $(".job-btns").each(function() {
+    if($(this).hasClass("active")){
+      $(this).removeClass("active");
+    };
+  });
+  $("#" + this.id).addClass("active");
+  //change opacity
+  $(".jobs").each(function(index) {
+    if(index == (targetNum-1)){
+      $(this).fadeTo(300, 1).removeClass("hidden").addClass("exposed");
+    }
+    else{
+      $(this).fadeTo(300, 0.1).removeClass("exposed").addClass("hidden");
+    };
+  });
+}

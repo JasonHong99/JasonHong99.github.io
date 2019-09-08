@@ -16,6 +16,13 @@ p {
   font-size: 1.4em;
   max-width: 600px;
 }
+/* styling each jobs */
+.exposed {
+  font-weight: 400;
+}
+.hidden {
+  opacity: 0.1;
+}
 /* horizontal bar */
 
 /* navbar */
